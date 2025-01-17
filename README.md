@@ -84,7 +84,7 @@ project-folder
 ---
 
  ## Author:
- [manishdahake10](manishdahake10)
+ [manishdahake10](https://github.com/manishdahake10)
 
 **Epixcel Pvt. Ltd.**
 
