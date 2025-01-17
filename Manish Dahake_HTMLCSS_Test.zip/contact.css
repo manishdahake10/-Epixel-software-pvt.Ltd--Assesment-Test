@@ -1,0 +1,78 @@
+/* Contact form start */
+.heading {
+    max-width: 100%;
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+.contact-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 18px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    border-radius: 1px;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    width: 45%;
+    margin: 10px;
+  }
+  .password {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .pass-input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+  }
+  
+  .register-btn {
+    background-color: #0099ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .contact-form {
+      max-width: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-form {
+      max-width: 250px;
+    }
+    .form-group {
+      width: 100%;
+    }
+  }
+  /* Contact form end */

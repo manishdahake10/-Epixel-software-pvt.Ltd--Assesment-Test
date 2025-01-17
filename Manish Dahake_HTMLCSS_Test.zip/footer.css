@@ -1,0 +1,112 @@
+/* Web page footer start*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-logo {
+    color: #fff;
+    width: 40px;
+
+    /* Adjust according to your logo size */
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.footer-column {
+    margin-right: 75px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: #f8f6f6;
+    text-decoration: none;
+    font-size: 12px;
+}
+ .footer-buttons {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.register-button {
+    background-color: #0099ff;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button {
+    background-color: #fff;
+    color: #0099ff;
+    border: 1px solid #0099ff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+}
+
+.footer-bottom p {
+    margin: 0px;
+}
+
+.social-icons a {
+    display: inline;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 24px;
+    border: solid #5e5e5e;
+    border-radius: 180%;
+    background-color: #636364 ;
+    font-size: inherit;
+    
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+/* Web page footer end*/
